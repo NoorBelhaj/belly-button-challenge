@@ -101,7 +101,7 @@ This code contains functions to handle the option change event and update variou
     - `bubbleChart(newValue)`: Updates the bubble chart with the new value.
     - `changeDemogInfo(newValue)`: Updates the demographic information with the new value.
 
-![image](https://github.com/NoorBelhaj/belly-button-challenge/blob/main/ScreenShots/ChangeScreenBarCapture.PNG)
+![image](https://github.com/NoorBelhaj/belly-button-challenge/blob/main/ScreenShots/ChangeScreenBubbleCapture.PNG)
 
   
 
