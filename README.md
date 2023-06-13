@@ -1,6 +1,18 @@
 
+# Belly Button Biodiversity Dashboard Project
+## This an ETL project
+It consist on collecting data and using D3 to show dashboard based on Java Script
 
-const dataDemographic = d3.json(url);
+I am first showing  welcome page's screen shot and then full description of the code per function
+
+To initialize the page and set the initial visualization and information, you may call the `optionChanged` function with the default or initial value.
+
+Bart Chart welcome screem tun at initialisation
+![image](https://github.com/NoorBelhaj/belly-button-challenge/blob/main/ScreenShots/WelcomePageCapture.PNG)
+![image](https://github.com/NoorBelhaj/belly-button-challenge/blob/main/ScreenShots/WelcomeScreen2Capture.PNG)
+
+Code starts by getting the url we will be sing with D3
+Const dataDemographic = d3.json(url);
 
 Using d3.json(url) to fetch data from the specified URL and assigns the returned promise to the dataDemographic variable. Then, it logs a message to the console, printing the value of dataDemographic.
 
@@ -80,7 +92,8 @@ function optionChanged(newValue) {
   bubbleChart(newValue);       // Update the bubble chart with the new value
   changeDemogInfo(newValue);    // Update the demographic information with the new value
 };
-
+![image](https://github.com/NoorBelhaj/belly-button-challenge/blob/main/ScreenShots/ChangeScreenBarCapture.PNG)
+  
 This code contains functions to handle the option change event and update various visualizations and information based on the selected option.
 
 - `optionChanged(newValue)`: This function is triggered when the option is changed in the dropdown menu. It takes the new value as the `newValue` parameter. It calls the following functions with the new value:
@@ -88,14 +101,7 @@ This code contains functions to handle the option change event and update variou
     - `bubbleChart(newValue)`: Updates the bubble chart with the new value.
     - `changeDemogInfo(newValue)`: Updates the demographic information with the new value.
 
-
-
-To initialize the page and set the initial visualization and information, you may call the `optionChanged` function with the default or initial value.
-
-![image](https://github.com/NoorBelhaj/belly-button-challenge/blob/main/ScreenShots/WelcomePageCapture.PNG)
-![image](
-![image](
-![image](
+![image](https://github.com/NoorBelhaj/belly-button-challenge/blob/main/ScreenShots/ChangeScreenBarCapture.PNG)
 
   
 
