@@ -89,7 +89,7 @@ This code contains functions to handle the option change event and update variou
     - `changeDemogInfo(newValue)`: Updates the demographic information with the new value.
 
 
-<!"C:\Users\INBA6454\Desktop\DataVizHomeWork\JavaScript-Challenge\belly-button-challenge\ScreenShots\WelcomePageCapture.PNG">
+<!"CScreenShots/WelcomePageCapture.PNG">
 
 To initialize the page and set the initial visualization and information, you may call the `optionChanged` function with the default or initial value.
 
